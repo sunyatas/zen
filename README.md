@@ -91,7 +91,7 @@ git pull origin
 
 ```js
 <script>
-var disqus_shortname = 'bestswifter'; // 改成自己的 shortname
+var disqus_shortname = ''; // 改成自己的 shortname
 </script>
 ```
 
