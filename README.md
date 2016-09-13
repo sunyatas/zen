@@ -25,7 +25,6 @@
 * 快速集成 Disqus 评论管理系统
 * 修改中文版 ghost 下，文章天数计算错误的bug
 
-###你可以访问我的博客查看 [demo](https://bestswifter.com)
 
 ## 安装
 
@@ -72,21 +71,7 @@ git pull origin
 <link rel="stylesheet" href="/highlight/styles/tomorrow.css">
 ```
 
-### 社交按钮与图标
 
-采用 [Font Awesome](http://fontawesome.io/) 的图标字体来展示社交按钮，请参考我的 `partials/social.hbs` 文件中的代码：
-
-```html
-<a href="https://github.com/bestswifter" title="@KtZhang 的 Github" target="_blank">
-  <i class='social fa fa-github'></i>
-  <span class="label">Github</span>
-</a>
-
-<a href="http://weibo.com/bestswifter" title="@bestswifter" target="_blank">
-  <i class='social fa fa-weibo'></i>
-  <span class="label">weibo</span>
-</a>
-```
 
 如果你需要使用别的图片，只要去 [Font Awesome](http://fontawesome.io/) 官网查一查图片名即可。
 
@@ -98,13 +83,7 @@ git pull origin
 
 ### 文章列表的总标题
 
-在[我的博客](https://bestswifter.com)中，你可以看到所有文章的最上方有一个大标题：**作品集**，如果你想换成别的名字，可以在 ghost 后台插入代码，在 `{{ghost_head}}` 中加入以下代码：
 
-```js
-<script>
-var posts_headline = '作品集 ';
-</script>
-```
 
 ### Disqus 评论管理
 
@@ -116,9 +95,7 @@ var disqus_shortname = 'bestswifter'; // 改成自己的 shortname
 </script>
 ```
 
-### 时间统计
 
-所有的文章都会显示 “xxx Days Ago”，表示这是你多久以前的文章。原来的代码似乎与中文版ghost不兼容，我做了一些修改，具体效果可以参考[我的博客](https://bestswifter.com)。
 
 ### 自定义导航页
 
@@ -128,6 +105,4 @@ var disqus_shortname = 'bestswifter'; // 改成自己的 shortname
 
 uno-zen 是一个非常优秀的主题，作者还在不断的对他进行更新，我也会不断探索新的功能并与大家分享。
 
-## License
 
-MIT © [bestswifter](https://bestswifter.com)
